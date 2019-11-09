@@ -1,7 +1,7 @@
 <?php
 
 if($_POST["message"]) {
-    mail("joeyrodrigues2@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+    mail("joeyrodrigues92@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
 }
 
 ?><!DOCTYPE <!DOCTYPE html>
