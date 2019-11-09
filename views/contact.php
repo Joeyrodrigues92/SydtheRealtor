@@ -42,7 +42,7 @@ if($_POST["message"]) {
                         </div>
                     </div>  
                 </div>
-                <div style="border: solid 2px blue;" class="Wrap">
+                <div style="border: solid 2px green;" class="Wrap">
                     <div class="container">
                         <div class="row oneRow">
                            <!-- <div class="col">
