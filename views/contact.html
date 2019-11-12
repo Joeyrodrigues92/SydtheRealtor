@@ -1,12 +1,3 @@
-<!-- https://script.google.com/macros/s/AKfycbwi0R0hSUnEvZ-IN0gxu536AxhzkI9JQwBUDJ01JA/exec -->
-<?php
-
-if($_POST["message"]) {
-    mail("joeyrodrigues92@gmail.com", "Form to email message", 
-$_POST["message"], "From: an@email.address");
-}
-
-?>
 <!DOCTYPE <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -57,7 +48,7 @@ $_POST["message"], "From: an@email.address");
                                 <h2>Office Address</h2>
                                 <h2>Office Number</h2>
                             </div> -->
-    <form  method="POST" action="contact.php">
+    <form class="gform" method="POST" data-email="joeyrodrigues92@gmail.com" action="https://script.google.com/macros/s/AKfycbwi0R0hSUnEvZ-IN0gxu536AxhzkI9JQwBUDJ01JA/exe">
     <!-- action="contact.php" -->
         <!-- <label>Name:</label>
         <input name="sender"> -->
@@ -65,9 +56,12 @@ $_POST["message"], "From: an@email.address");
         <!-- <label>Email address:</label>
         <input name="senderEmail"> -->
 
-        <label>Message:</label>
-        <textarea rows="5" cols="20" name="message"></textarea>
-
+        <fieldset class="pure-group">
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="10"
+                placeholder="Tell us what's on your mind..."></textarea>
+        </fieldset>
+        
         <input type="submit" name="submit">
     </form>
                         </div>
