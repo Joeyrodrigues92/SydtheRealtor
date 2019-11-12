@@ -1,10 +1,12 @@
 <?php
 
 if($_POST["message"]) {
-    mail("joeyrodrigues92@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+    mail("joeyrodrigues92@gmail.com", "Form to email message", 
+$_POST["message"], "From: an@email.address");
 }
 
-?><!DOCTYPE <!DOCTYPE html>
+?>
+<!DOCTYPE <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -54,12 +56,12 @@ if($_POST["message"]) {
                                 <h2>Office Address</h2>
                                 <h2>Office Number</h2>
                             </div> -->
-                            <form method="post" action="contact.php">
-        <label>Name:</label>
-        <input name="sender">
+    <form method="post" action="contact.php">
+        <!-- <label>Name:</label>
+        <input name="sender"> -->
 
-        <label>Email address:</label>
-        <input name="senderEmail">
+        <!-- <label>Email address:</label>
+        <input name="senderEmail"> -->
 
         <label>Message:</label>
         <textarea rows="5" cols="20" name="message"></textarea>
