@@ -57,7 +57,7 @@ $_POST["message"], "From: an@email.address");
                                 <h2>Office Address</h2>
                                 <h2>Office Number</h2>
                             </div> -->
-    <form  method="POST" action="contact.php">
+    <form  method="post" action="contact.php">
     <!-- action="contact.php" -->
         <!-- <label>Name:</label>
         <input name="sender"> -->
