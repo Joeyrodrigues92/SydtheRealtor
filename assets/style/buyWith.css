@@ -1,7 +1,7 @@
+html{
+    height: 100%;
+}
 
-/* ADD NEW FONT */
-
-html, 
 body {
     width: 100%;
     background-color: rgb(15,57,127);
@@ -15,20 +15,14 @@ body {
 }
 
 h2{
-    font-family: 'Crimson Text', serif;  
+    font-family: 'Monda', sans-serif;
 }
 
-h4{
-    font-family: 'Crimson Text', serif;  
-    color: rgb(220,32,45);
-    font-weight: bolder;
-}
 
 .top{
     margin-left: 0px;
     margin-right: 0px;
-    /* border-bottom: 1px solid black; */
-    font-family: 'Crimson Text', serif;
+    font-family: 'Monda', sans-serif;
     font-size: 30px;
     color: rgb(220,32,45);
     background-color: white;
@@ -41,6 +35,7 @@ h4{
 
 #name{
     font-weight: bold;
+    color: rgb(220,32,45);
 }
 
 #title{
@@ -60,6 +55,7 @@ h1{
 
 #logoDiv{
     float: right;
+    text-align: center
 }
 
 .logo{
@@ -72,24 +68,69 @@ h1{
     text-align: center;
     color: rgb(9,57,142);
 }
+/* WRAP */
 
 .Wrap{
-    margin: 4% auto;
-
-    /* for mobile  */
-    /* 4% 0 45%  auto */
+    margin: 5% 5% auto;
+    margin-bottom: 250px;
 }
 
-.oneRow{
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 1200px;
+    /* height: 500px; */
+    margin: 0 auto;
+
+}
+
+
+.card {
+    margin: 0 100px auto;
+    display: inline-block;
+    width: 1000px;
+    height: 500px;
+    font-family: 'Monda', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+
+.title{
+    /* border: solid 2px white; */
+    font-family: 'Monda', sans-serif;
+    color: white;
     text-align: center;
-
-    /* for mobile */
-    /* just get rid of text-align: ; */
 }
+ #titleText{
+     font-size: 60px;
+ }
 
-.inputText{
-    width: 300px;
-}
+ span{
+    color: rgb(220,32,45);
+ }
+
+ #imgShowing{
+     height: 200px;
+     width: 300px;
+     margin-right: 60px;
+     float: right;
+ }
+  
+
 /* FOOTER */
 
 #footer{
@@ -111,7 +152,7 @@ h1{
 
 #rowOne{
     background-color: rgb(166,28,31);
-    font-family: 'Crimson Text', serif;
+    font-family: 'Monda', sans-serif;
 }
 
 
@@ -152,5 +193,3 @@ ul{
     height: auto;
     margin-left: 10px;
 }
-
-
